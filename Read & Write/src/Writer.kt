@@ -6,7 +6,7 @@ class Writer {
     fun writeSingleChar() {
         try {
             val fos = FileOutputStream("path")
-            fos.write(65)
+            fos.write(/* Ascii code of a char example: 65 -> A */)
             fos.flush()
             fos.close()
         } catch (ex: Exception) {
